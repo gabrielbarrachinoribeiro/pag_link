@@ -1,0 +1,20 @@
+.sectionImgPerfil {
+  position: relative;
+  z-index: 300;
+  margin-top: -5rem;
+}
+
+.containerImgPerfil {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 540px) {
+  .sectionImgPerfil {
+    margin-top: -3.6rem;
+  }
+  .sectionImgPerfil .containerImgPerfil img {
+    width: 120px;
+  }
+}
