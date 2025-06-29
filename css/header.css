@@ -8,7 +8,7 @@
 .imgWrapper {
   position: relative;
   width: 75%;
-  height: 400px;
+  height: 350px;
   border-radius: 12px;
   overflow: hidden;
 }
@@ -32,6 +32,50 @@
   pointer-events: none;
 }
 
+.containerDescription {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.containerDescription h1 {
+  font-family: "Dancing Script", sans-serif;
+  font-size: 2rem;
+}
+
+.divTexts {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.divTexts span {
+  width: 6px;
+  height: 6px;
+  border-radius: 100%;
+  background: #fff;
+}
+
+.divTexts p {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.divSociais {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 1rem;
+}
+.divSociais a{
+  border: 1px solid #fff;
+  padding: 6px;
+  border-radius: 100%;
+}
+
 @media (max-width: 540px) {
   .containerImgCapa {
     margin-top: 0;
@@ -40,5 +84,11 @@
     width: 100%;
     height: 300px;
     border-radius: 0;
+  }
+  .containerDescription h1 {
+    font-size: 1.7rem;
+  }
+  .containerDescription {
+    margin-top: 1.3rem;
   }
 }
