@@ -1,7 +1,7 @@
 .sectionImgPerfil {
   position: relative;
   z-index: 300;
-  margin-top: -5rem;
+  margin-top: -3.6rem;
 }
 
 .containerImgPerfil {
@@ -10,11 +10,18 @@
   justify-content: center;
 }
 
+.sectionImgPerfil .containerImgPerfil img {
+  width: 120px;
+}
+
 @media (max-width: 540px) {
   .sectionImgPerfil {
-    margin-top: -3.6rem;
+    border-radius: 26px 26px 0 0;
+    background: #333;
+    margin-top: -1.5rem;
   }
-  .sectionImgPerfil .containerImgPerfil img {
-    width: 120px;
+  .sectionImgPerfil .containerImgPerfil{
+    position: relative;
+    top: -3rem;
   }
 }
