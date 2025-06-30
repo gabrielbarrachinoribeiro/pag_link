@@ -1,0 +1,23 @@
+.containerLinks{
+    border-top: 1px solid #cecbcb3d;
+    margin-top: 2.2rem;
+    padding-top: 2rem;
+}
+.containerLinks .container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.containerLinks .container a{
+    display: block;
+    background: #fff;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}

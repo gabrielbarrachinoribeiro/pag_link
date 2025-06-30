@@ -62,6 +62,7 @@
 .divTexts p {
   font-size: 14px;
   font-weight: 300;
+  color: #cecbcb;
 }
 
 .divSociais {
@@ -100,7 +101,7 @@
 .containerTags div p {
   font-size: 14px;
   font-weight: 300;
-  color: #e6e5e5;
+  color: #cecbcb;
 }
 
 @media (max-width: 540px) {
@@ -112,13 +113,16 @@
     height: 300px;
     border-radius: 0;
   }
+  .imgCapa, .imgWrapper {
+    border-radius: 0px;
+  }
   .containerDescription h1 {
     font-size: 1.7rem;
   }
   .containerDescription {
     margin-top: -1.7rem;
   }
-  .divSociais a img{
+  .divSociais a img {
     width: 24px;
     height: 24px;
   }
