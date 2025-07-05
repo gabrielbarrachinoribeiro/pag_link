@@ -1,0 +1,34 @@
+.containerSlides .top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 1.5rem;
+}
+.containerSlides .top p {
+  font-size: 18px;
+  font-weight: 600;
+}
+.containerSlides .top a {
+  color: #cecbcb;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 8px;
+  text-decoration: none;
+  transition: all .1s ease;
+}
+.containerSlides .top a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+
+.divCopy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem 0 2rem 0;
+}
+.divCopy p{
+    text-align: center;
+    color: #cecbcb;
+}

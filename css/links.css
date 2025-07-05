@@ -1,13 +1,18 @@
 .containerLinks{
     border-top: 1px solid #cecbcb3d;
+    border-bottom: 1px solid #cecbcb3d;
     margin-top: 2.2rem;
+    margin-bottom: 2.2rem;
     padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 .containerLinks .container{
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    gap: 20px;
 }
 .containerLinks .container a{
     display: block;
@@ -20,4 +25,10 @@
     text-decoration: none;
     color: #333;
     font-weight: 500;
+    transition: all 0.1s ease-in;
+}
+
+.containerLinks .container a:hover{
+    background: #dddcdc;
+    transform: scale(1.02);
 }
